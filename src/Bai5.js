@@ -9,9 +9,9 @@ function Bai5() {
 
   const handleSubmit = () => {
     let newErrors = {};
-    if (!name) newErrors.name = "⚠️ Vui lòng nhập tên";
-    if (!email) newErrors.email = "⚠️ Vui lòng nhập email";
-    if (!password) newErrors.password = "⚠️ Vui lòng nhập mật khẩu";
+    if (!name) newErrors.name = " Vui lòng nhập tên";
+    if (!email) newErrors.email = " Vui lòng nhập email";
+    if (!password) newErrors.password = " Vui lòng nhập mật khẩu";
 
     setErrors(newErrors);
 
